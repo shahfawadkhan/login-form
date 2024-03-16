@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    margin-left: 50px;
+    width: 100%;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    min-width: 50px;
+    text-align: center;
+
+}
+.user-name{
+    display: flex;
+}
+.pass{
+    display: flex;
+}
+.login-form{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgb(26, 141, 194);
+    width: 350px;
+    height: 300px;
+}
+.btn{
+   padding: 1rem 6rem;
+   border-radius: 20px;
+   border: none;
+   margin-left: 50px;
+   margin-top: 20px;
+
+}
+.inputfield{
+    display: flex;
+    border-radius: 20px;
+    border: none;
+}
