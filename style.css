@@ -2,46 +2,81 @@ body{
     display: flex;
     justify-content: center;
 }
-.input{
-    display: flex;
-    margin-left: 50px;
-    width: 100%;
-}
-.icon{
-    height: 50px;
-    width: 50px;
-    font-size: 50px;
-    background-color: white;
+*{
     color: black;
-    border-radius: 50%;
-    min-width: 50px;
+}
+.inputfield1{
+   padding: 1rem 2rem; 
+   border-radius: 25px;
+   font-size: .8rem;
+   outline: none;
+   border: none;
+}
+.inputfield1::placeholder{
+text-indent: 15px;
+}
+
+.inputfield2{
+    padding: 1rem 2rem; 
+    border-radius: 25px;
+    font-size: .8rem;
+    outline: none;
+    border: none;
+ }
+.icon1{
+    color: white;
+    width: 50px;
     text-align: center;
+    border-radius: 25px;
+    background-color: rgb(12, 103, 128);
+    font-size:50px ;
+    position: relative;
+    left: 40px;
 
 }
-.user-name{
+.input1{
     display: flex;
+    margin-right: 85px
 }
-.pass{
+.input2{
     display: flex;
+    /* margin-left :85px; */
 }
 .login-form{
     display: flex;
-    border-radius: 20px;
     flex-direction: column;
-    background-color: rgb(26, 141, 194);
-    width: 350px;
-    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(67, 168, 191);
+    border: .1px solid black;
+    border-radius:25px;
 }
-.btn{
-   padding: 1rem 6rem;
-   border-radius: 20px;
-   border: none;
-   margin-left: 50px;
-   margin-top: 20px;
+.icon2{
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(12, 103, 128);
+    font-size:50px ;
+    position: relative;
+    right: 40px;
 
 }
-.inputfield{
-    display: flex;
-    border-radius: 20px;
+.btn{
+    padding: 1rem 4.5rem;
+    border-radius: 25px;
+    background-color: rgba(220, 20, 60, 0.877);
+    color:black;
+    color: white;
+    cursor: pointer;
+    margin-right: 50px;
     border: none;
+}
+#heading{
+    padding: .4rem 2rem;
+    color:white;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
 }
